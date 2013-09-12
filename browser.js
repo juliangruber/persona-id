@@ -29,9 +29,9 @@ Persona.prototype.set = function (id) {
     else this.emit('logout')
 };
 
-Persona.prototype.identify = function () {
+Persona.prototype.identify = function (opts) {
     this._watch(null);
-    navId.request();
+    navId.request(opts);
 };
 
 Persona.prototype.unidentify = function () {

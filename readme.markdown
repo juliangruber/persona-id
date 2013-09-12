@@ -145,9 +145,9 @@ When a user logs out, this event fires with the session id.
 
 Create a new persona instance `p`.
 
-### p.identify()
+### p.identify(opts)
 
-Sign in.
+Sign in. [Options](https://developer.mozilla.org/en-US/docs/Web/API/navigator.id.request#Parameters) can be used to customize the Persona dialog.
 
 ### p.unidentify()
 
