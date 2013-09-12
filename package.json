@@ -1,6 +1,6 @@
 {
     "name": "persona-id",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "mozilla persona single sign-on without frameworks",
     "main": "index.js",
     "browser": "browser.js",
