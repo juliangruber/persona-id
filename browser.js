@@ -84,7 +84,8 @@ Persona.prototype._login = function (assertion) {
                 
                 if (m && m.cookie) {
                     for (var key in m.cookie) {
-                        document.cookie = key + '=' + m.cookie[key];
+                        document.cookie =
+                            key + '=' + m.cookie[key] + '; path=/';
                     }
                 }
                 if (m && m.id) {
